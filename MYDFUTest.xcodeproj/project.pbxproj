@@ -17,6 +17,7 @@
 		F113AA2D1E67AE8E003C35C9 /* MYDFUTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F113AA2C1E67AE8E003C35C9 /* MYDFUTestUITests.m */; };
 		F113AA3C1E67AEBB003C35C9 /* iOSDFULibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F113AA3A1E67AEBB003C35C9 /* iOSDFULibrary.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		F113AA3D1E67AEBB003C35C9 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F113AA3B1E67AEBB003C35C9 /* Zip.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		F113AA3F1E67B052003C35C9 /* SpeedApp.zip in Resources */ = {isa = PBXBuildFile; fileRef = F113AA3E1E67B052003C35C9 /* SpeedApp.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F113AA2E1E67AE8E003C35C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F113AA3A1E67AEBB003C35C9 /* iOSDFULibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOSDFULibrary.framework; sourceTree = "<group>"; };
 		F113AA3B1E67AEBB003C35C9 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Zip.framework; sourceTree = "<group>"; };
+		F113AA3E1E67B052003C35C9 /* SpeedApp.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = SpeedApp.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				F113AA3B1E67AEBB003C35C9 /* Zip.framework */,
 				F113AA0A1E67AE8E003C35C9 /* AppDelegate.h */,
 				F113AA0B1E67AE8E003C35C9 /* AppDelegate.m */,
+				F113AA3E1E67B052003C35C9 /* SpeedApp.zip */,
 				F113AA0D1E67AE8E003C35C9 /* ViewController.h */,
 				F113AA0E1E67AE8E003C35C9 /* ViewController.m */,
 				F113AA101E67AE8E003C35C9 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 				F113AA171E67AE8E003C35C9 /* LaunchScreen.storyboard in Resources */,
 				F113AA141E67AE8E003C35C9 /* Assets.xcassets in Resources */,
 				F113AA121E67AE8E003C35C9 /* Main.storyboard in Resources */,
+				F113AA3F1E67B052003C35C9 /* SpeedApp.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
