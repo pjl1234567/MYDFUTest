@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "iOSDFULibrary/iOSDFULibrary-Swift.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"SpeedApp" withExtension:@"zip"];
+    DFUFirmware *firmware = [[DFUFirmware alloc] initWithUrlToZipFile:fileURL];
+    //
+    NSLog(@"URL = %@\n\nfirmware = %@", fileURL, firmware);
     return YES;
 }
 
